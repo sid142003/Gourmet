@@ -1,0 +1,19 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80%;
+}
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+.title:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.map-container {
+  border-color: black;
+}

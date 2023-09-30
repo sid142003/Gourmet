@@ -1,0 +1,113 @@
+body {
+  background-color: #000000;
+  user-select: none;
+}
+
+#homeBanner > .home-image {
+  position: absolute;
+  right: 0;
+  width: 70%;
+  height: 130%;
+  z-index: 0;
+}
+
+.home-text > .quote {
+  margin-top: 10%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  color: #ffffff;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-size: 4vw;
+  padding: 2vw;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1.7px white;
+}
+
+.quote {
+  margin-top: 12%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  color: #ffffff;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-size: 4.5vw;
+  padding: 2vw;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1.3px white;
+}
+
+.home-title {
+  position: absolute;
+  top: -10;
+  left: 2%;
+  width: 100%;
+  color: #ff3000;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-size: 4.5vw;
+  z-index: 100;
+  margin-bottom: 20px;
+}
+
+.motion-svg {
+  overflow: visible;
+  stroke: #ff3000;
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.gotomenu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 3vw;
+  z-index: 9999;
+}
+
+.scatter-cards {
+  display: flex;
+  position: absolute;
+  top: 1450px;
+  right: 17rem;
+  padding-bottom: 15rem;
+}
+
+.home-text {
+  color: white;
+  position: absolute;
+  top: 1350px;
+  width: 40%;
+  height: 400px;
+  padding-left: 2rem;
+  padding-right: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+  border-radius: 0px 40px 40px 0px;
+  background-color: #ffffff1a;
+  user-select: none;
+}
+
+.home-text-title {
+  font-size: 3rem;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #ff3000;
+}
+
+.home-text-content {
+  font-size: 1.5rem;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.home-text-content-2 {
+  font-size: 1.3rem;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-weight: 800;
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+  color: #ff3000;
+}
